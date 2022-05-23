@@ -197,7 +197,6 @@ namespace ObjLoad
                     float z = float.Parse(lineParts[3].Replace('.', ','));
                     objVertices.Add(new Vertex(x, y, z));
                 }
-                //Начало треугольников в файле
                 else if (line.StartsWith("f")) break;
             }
 
