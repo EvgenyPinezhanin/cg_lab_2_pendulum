@@ -71,6 +71,7 @@ StyleCopReport.xml
 *.ilk
 *.meta
 *.obj
+!pendulum.obj
 *.iobj
 *.pch
 *.pdb
